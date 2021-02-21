@@ -21,6 +21,9 @@ repositories {
 dependencies {
     implementation 'org.springframework.boot:spring-boot-starter-web'
     compileOnly 'org.projectlombok:lombok'
+    implementation group: 'org.slf4j', name: 'slf4j-api'
+    implementation group: 'ch.qos.logback', name: 'logback-core'
+    implementation group: 'ch.qos.logback', name: 'logback-classic'
     implementation group: 'org.springframework.boot', name: 'spring-boot-starter-aop'
     developmentOnly 'org.springframework.boot:spring-boot-devtools'
     annotationProcessor 'org.projectlombok:lombok'
