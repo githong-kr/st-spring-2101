@@ -1,37 +1,35 @@
-[20:39:26.698:INFO :SpringBootTestContextBootstrapper] Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.example.demo.DemoApplicationTests], using SpringBootContextLoader
-[20:39:26.702:INFO :AbstractContextLoader] Could not detect default resource locations for test class [com.example.demo.DemoApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
-[20:39:26.702:INFO :AnnotationConfigContextLoaderUtils] Could not detect default configuration classes for test class [com.example.demo.DemoApplicationTests]: DemoApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
-[20:39:26.757:INFO :SpringBootTestContextBootstrapper] Found @SpringBootConfiguration com.example.demo.DemoApplication for test class com.example.demo.DemoApplicationTests
-[20:39:26.799:INFO :SpringBootTestContextBootstrapper] Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
-[20:39:26.805:INFO :SpringBootTestContextBootstrapper] Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@71500f25, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@5468c9e8, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@c9afea8, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@57e2dba3, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@26badf5d, org.springframework.test.context.support.DirtiesContextTestExecutionListener@348f75eb, org.springframework.test.context.event.EventPublishingTestExecutionListener@6fbba26c, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@2ec553fb, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@5e752149, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@111a3741, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@23004fcc, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@275e9adc, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@50568817]
-[20:39:27.159:INFO :DemoApplicationTests] Starting DemoApplicationTests using Java 1.8.0_282 on balekui-Macmini.local with PID 37596 (started by bale.k in /Users/bale.k/IdeaProjects/st-spring-2101)
-[20:39:27.160:INFO :DemoApplicationTests] No active profile set, falling back to default profiles: default
-[20:39:27.577:INFO :OneController] test logger
-[20:39:27.578:INFO :OneController] test debug logger
-[20:39:27.948:INFO :ThreadPoolTaskExecutor] Initializing ExecutorService 'applicationTaskExecutor'
-[20:39:28.216:INFO :DemoApplicationTests] Started DemoApplicationTests in 1.391 seconds (JVM running for 1.976)
-[20:39:28.336:INFO :ThreadPoolTaskExecutor] Shutting down ExecutorService 'applicationTaskExecutor'
-[20:40:00.778:INFO :DemoApplication] Starting DemoApplication using Java 1.8.0_282 on balekui-Macmini.local with PID 37615 (/Users/bale.k/IdeaProjects/st-spring-2101/build/classes/java/main started by bale.k in /Users/bale.k/IdeaProjects/st-spring-2101)
-[20:40:00.779:INFO :DemoApplication] No active profile set, falling back to default profiles: default
-[20:40:00.797:INFO :DevToolsPropertyDefaultsPostProcessor] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-[20:40:00.798:INFO :DevToolsPropertyDefaultsPostProcessor] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-[20:40:01.204:INFO :TomcatWebServer] Tomcat initialized with port(s): 8088 (http)
-[20:40:01.208:INFO :Http11NioProtocol] Initializing ProtocolHandler ["http-nio-8088"]
-[20:40:01.208:INFO :StandardService] Starting service [Tomcat]
-[20:40:01.208:INFO :StandardEngine] Starting Servlet engine: [Apache Tomcat/9.0.41]
-[20:40:01.229:INFO :[/]] Initializing Spring embedded WebApplicationContext
-[20:40:01.230:INFO :ServletWebServerApplicationContext] Root WebApplicationContext: initialization completed in 432 ms
-[20:40:01.266:INFO :OneController] test logger
-[20:40:01.266:INFO :OneController] test debug logger
-[20:40:01.364:INFO :ThreadPoolTaskExecutor] Initializing ExecutorService 'applicationTaskExecutor'
-[20:40:01.483:WARN :OptionalLiveReloadServer] Unable to start LiveReload server
-[20:40:01.492:INFO :Http11NioProtocol] Starting ProtocolHandler ["http-nio-8088"]
-[20:40:01.504:INFO :TomcatWebServer] Tomcat started on port(s): 8088 (http) with context path ''
-[20:40:01.510:INFO :DemoApplication] Started DemoApplication in 0.876 seconds (JVM running for 1.154)
-[20:40:05.534:INFO :[/]] Initializing Spring DispatcherServlet 'dispatcherServlet'
-[20:40:05.534:INFO :DispatcherServlet] Initializing Servlet 'dispatcherServlet'
-[20:40:05.535:INFO :DispatcherServlet] Completed initialization in 1 ms
-[20:40:05.547:INFO :ServiceAdvice] 6around start
-[20:40:05.547:INFO :OneService$$EnhancerBySpringCGLIB$$65356150] 7Controller Start : OneService.one() with
-[20:40:05.550:INFO :OneService] good job
-[20:40:05.550:INFO :OneService$$EnhancerBySpringCGLIB$$65356150] 8Controller End : OneService.one() with
+[15:46:38.913:INFO :ThreadPoolTaskExecutor] Shutting down ExecutorService 'applicationTaskExecutor'
+[15:46:39.135:INFO :DemoApplication] Starting DemoApplication using Java 1.8.0_282 on balekui-Macmini.local with PID 37615 (/Users/bale.k/IdeaProjects/st-spring-2101/build/classes/java/main started by bale.k in /Users/bale.k/IdeaProjects/st-spring-2101)
+[15:46:39.135:INFO :DemoApplication] No active profile set, falling back to default profiles: default
+[15:46:39.257:INFO :TomcatWebServer] Tomcat initialized with port(s): 8088 (http)
+[15:46:39.258:INFO :Http11NioProtocol] Initializing ProtocolHandler ["http-nio-8088"]
+[15:46:39.258:INFO :StandardService] Starting service [Tomcat]
+[15:46:39.258:INFO :StandardEngine] Starting Servlet engine: [Apache Tomcat/9.0.41]
+[15:46:39.261:INFO :[/]] Initializing Spring embedded WebApplicationContext
+[15:46:39.262:INFO :ServletWebServerApplicationContext] Root WebApplicationContext: initialization completed in 124 ms
+[15:46:39.273:INFO :OneController] test logger
+[15:46:39.273:INFO :OneController] test debug logger
+[15:46:39.351:INFO :ThreadPoolTaskExecutor] Initializing ExecutorService 'applicationTaskExecutor'
+[15:46:39.440:WARN :OptionalLiveReloadServer] Unable to start LiveReload server
+[15:46:39.445:INFO :Http11NioProtocol] Starting ProtocolHandler ["http-nio-8088"]
+[15:46:39.446:INFO :TomcatWebServer] Tomcat started on port(s): 8088 (http) with context path ''
+[15:46:39.448:INFO :DemoApplication] Started DemoApplication in 0.487 seconds (JVM running for 155201.886)
+[15:46:39.449:INFO :ConditionEvaluationDeltaLoggingListener] Condition evaluation unchanged
+[15:47:26.291:INFO :ThreadPoolTaskExecutor] Shutting down ExecutorService 'applicationTaskExecutor'
+[15:47:26.355:INFO :DemoApplication] Starting DemoApplication using Java 1.8.0_282 on balekui-Macmini.local with PID 37615 (/Users/bale.k/IdeaProjects/st-spring-2101/build/classes/java/main started by bale.k in /Users/bale.k/IdeaProjects/st-spring-2101)
+[15:47:26.355:INFO :DemoApplication] No active profile set, falling back to default profiles: default
+[15:47:26.456:INFO :TomcatWebServer] Tomcat initialized with port(s): 8088 (http)
+[15:47:26.457:INFO :Http11NioProtocol] Initializing ProtocolHandler ["http-nio-8088"]
+[15:47:26.457:INFO :StandardService] Starting service [Tomcat]
+[15:47:26.457:INFO :StandardEngine] Starting Servlet engine: [Apache Tomcat/9.0.41]
+[15:47:26.460:INFO :[/]] Initializing Spring embedded WebApplicationContext
+[15:47:26.460:INFO :ServletWebServerApplicationContext] Root WebApplicationContext: initialization completed in 104 ms
+[15:47:26.469:INFO :OneController] test logger
+[15:47:26.469:INFO :OneController] test debug logger
+[15:47:26.545:INFO :ThreadPoolTaskExecutor] Initializing ExecutorService 'applicationTaskExecutor'
+[15:47:26.616:WARN :OptionalLiveReloadServer] Unable to start LiveReload server
+[15:47:26.620:INFO :Http11NioProtocol] Starting ProtocolHandler ["http-nio-8088"]
+[15:47:26.621:INFO :TomcatWebServer] Tomcat started on port(s): 8088 (http) with context path ''
+[15:47:26.622:INFO :DemoApplication] Started DemoApplication in 0.283 seconds (JVM running for 155249.061)
+[15:47:26.623:INFO :ConditionEvaluationDeltaLoggingListener] Condition evaluation unchanged
+[15:47:43.691:INFO :ThreadPoolTaskExecutor] Shutting down ExecutorService 'applicationTaskExecutor'
