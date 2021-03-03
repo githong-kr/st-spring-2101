@@ -13,7 +13,7 @@ public class PointCutList {
         System.out.println("allController()");
     }
 
-    @Pointcut("execution(* com.example.demo..controller..*.*(..))")
+    @Pointcut("execution(* com.example.demo..service..*.*(..))")
     public void allService() {
         System.out.println("allService()");
     }

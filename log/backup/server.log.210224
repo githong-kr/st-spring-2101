@@ -1,0 +1,166 @@
+[17:23:15.859:INFO :ThreadPoolTaskExecutor] Shutting down ExecutorService 'applicationTaskExecutor'
+[17:23:16.140:INFO :DemoApplication] Starting DemoApplication using Java 1.8.0_282 on balekui-Macmini.local with PID 5731 (/Users/bale.k/IdeaProjects/st-spring-2101/build/classes/java/main started by bale.k in /Users/bale.k/IdeaProjects/st-spring-2101)
+[17:23:16.141:INFO :DemoApplication] No active profile set, falling back to default profiles: default
+[17:23:16.244:INFO :TomcatWebServer] Tomcat initialized with port(s): 8088 (http)
+[17:23:16.245:INFO :Http11NioProtocol] Initializing ProtocolHandler ["http-nio-8088"]
+[17:23:16.245:INFO :StandardService] Starting service [Tomcat]
+[17:23:16.245:INFO :StandardEngine] Starting Servlet engine: [Apache Tomcat/9.0.41]
+[17:23:16.248:INFO :[/]] Initializing Spring embedded WebApplicationContext
+[17:23:16.248:INFO :ServletWebServerApplicationContext] Root WebApplicationContext: initialization completed in 106 ms
+[17:23:16.320:INFO :ThreadPoolTaskExecutor] Initializing ExecutorService 'applicationTaskExecutor'
+[17:23:16.388:WARN :OptionalLiveReloadServer] Unable to start LiveReload server
+[17:23:16.392:INFO :Http11NioProtocol] Starting ProtocolHandler ["http-nio-8088"]
+[17:23:16.392:INFO :TomcatWebServer] Tomcat started on port(s): 8088 (http) with context path ''
+[17:23:16.394:INFO :DemoApplication] Started DemoApplication in 0.468 seconds (JVM running for 435245.757)
+[17:23:16.394:INFO :ConditionEvaluationDeltaLoggingListener] Condition evaluation unchanged
+[17:23:38.991:INFO :ThreadPoolTaskExecutor] Shutting down ExecutorService 'applicationTaskExecutor'
+[17:23:39.068:INFO :DemoApplication] Starting DemoApplication using Java 1.8.0_282 on balekui-Macmini.local with PID 5731 (/Users/bale.k/IdeaProjects/st-spring-2101/build/classes/java/main started by bale.k in /Users/bale.k/IdeaProjects/st-spring-2101)
+[17:23:39.068:INFO :DemoApplication] No active profile set, falling back to default profiles: default
+[17:23:39.147:INFO :TomcatWebServer] Tomcat initialized with port(s): 8088 (http)
+[17:23:39.148:INFO :Http11NioProtocol] Initializing ProtocolHandler ["http-nio-8088"]
+[17:23:39.148:INFO :StandardService] Starting service [Tomcat]
+[17:23:39.148:INFO :StandardEngine] Starting Servlet engine: [Apache Tomcat/9.0.41]
+[17:23:39.151:INFO :[/]] Initializing Spring embedded WebApplicationContext
+[17:23:39.151:INFO :ServletWebServerApplicationContext] Root WebApplicationContext: initialization completed in 81 ms
+[17:23:39.166:INFO :ThreadPoolTaskExecutor] Initializing ExecutorService 'applicationTaskExecutor'
+[17:23:39.184:WARN :OptionalLiveReloadServer] Unable to start LiveReload server
+[17:23:39.191:INFO :Http11NioProtocol] Starting ProtocolHandler ["http-nio-8088"]
+[17:23:39.194:INFO :TomcatWebServer] Tomcat started on port(s): 8088 (http) with context path ''
+[17:23:39.197:INFO :DemoApplication] Started DemoApplication in 0.144 seconds (JVM running for 435268.56)
+[17:23:39.198:INFO :ConditionEvaluationDeltaLoggingListener] Condition evaluation unchanged
+[17:25:00.240:INFO :ThreadPoolTaskExecutor] Shutting down ExecutorService 'applicationTaskExecutor'
+[17:25:00.294:INFO :DemoApplication] Starting DemoApplication using Java 1.8.0_282 on balekui-Macmini.local with PID 5731 (/Users/bale.k/IdeaProjects/st-spring-2101/build/classes/java/main started by bale.k in /Users/bale.k/IdeaProjects/st-spring-2101)
+[17:25:00.294:INFO :DemoApplication] No active profile set, falling back to default profiles: default
+[17:25:00.384:INFO :TomcatWebServer] Tomcat initialized with port(s): 8088 (http)
+[17:25:00.384:INFO :Http11NioProtocol] Initializing ProtocolHandler ["http-nio-8088"]
+[17:25:00.384:INFO :StandardService] Starting service [Tomcat]
+[17:25:00.384:INFO :StandardEngine] Starting Servlet engine: [Apache Tomcat/9.0.41]
+[17:25:00.386:INFO :[/]] Initializing Spring embedded WebApplicationContext
+[17:25:00.386:INFO :ServletWebServerApplicationContext] Root WebApplicationContext: initialization completed in 91 ms
+[17:25:00.393:INFO :OneController] test logger
+[17:25:00.393:INFO :OneController] test debug logger
+[17:25:00.460:INFO :ThreadPoolTaskExecutor] Initializing ExecutorService 'applicationTaskExecutor'
+[17:25:00.522:WARN :OptionalLiveReloadServer] Unable to start LiveReload server
+[17:25:00.526:INFO :Http11NioProtocol] Starting ProtocolHandler ["http-nio-8088"]
+[17:25:00.526:INFO :TomcatWebServer] Tomcat started on port(s): 8088 (http) with context path ''
+[17:25:00.528:INFO :DemoApplication] Started DemoApplication in 0.246 seconds (JVM running for 435349.893)
+[17:25:00.528:INFO :ConditionEvaluationDeltaLoggingListener] Condition evaluation unchanged
+[17:25:02.958:INFO :ThreadPoolTaskExecutor] Shutting down ExecutorService 'applicationTaskExecutor'
+[17:25:03.025:INFO :DemoApplication] Starting DemoApplication using Java 1.8.0_282 on balekui-Macmini.local with PID 5731 (/Users/bale.k/IdeaProjects/st-spring-2101/build/classes/java/main started by bale.k in /Users/bale.k/IdeaProjects/st-spring-2101)
+[17:25:03.025:INFO :DemoApplication] No active profile set, falling back to default profiles: default
+[17:25:03.108:INFO :TomcatWebServer] Tomcat initialized with port(s): 8088 (http)
+[17:25:03.109:INFO :Http11NioProtocol] Initializing ProtocolHandler ["http-nio-8088"]
+[17:25:03.109:INFO :StandardService] Starting service [Tomcat]
+[17:25:03.109:INFO :StandardEngine] Starting Servlet engine: [Apache Tomcat/9.0.41]
+[17:25:03.114:INFO :[/]] Initializing Spring embedded WebApplicationContext
+[17:25:03.114:INFO :ServletWebServerApplicationContext] Root WebApplicationContext: initialization completed in 88 ms
+[17:25:03.129:INFO :OneController] test logger
+[17:25:03.129:INFO :OneController] test debug logger
+[17:25:03.188:INFO :ThreadPoolTaskExecutor] Initializing ExecutorService 'applicationTaskExecutor'
+[17:25:03.256:WARN :OptionalLiveReloadServer] Unable to start LiveReload server
+[17:25:03.259:INFO :Http11NioProtocol] Starting ProtocolHandler ["http-nio-8088"]
+[17:25:03.260:INFO :TomcatWebServer] Tomcat started on port(s): 8088 (http) with context path ''
+[17:25:03.262:INFO :DemoApplication] Started DemoApplication in 0.247 seconds (JVM running for 435352.627)
+[17:25:03.262:INFO :ConditionEvaluationDeltaLoggingListener] Condition evaluation unchanged
+[17:30:06.785:INFO :[/]] Initializing Spring DispatcherServlet 'dispatcherServlet'
+[17:30:06.785:INFO :DispatcherServlet] Initializing Servlet 'dispatcherServlet'
+[17:30:06.786:INFO :DispatcherServlet] Completed initialization in 1 ms
+[17:32:59.012:INFO :ThreadPoolTaskExecutor] Shutting down ExecutorService 'applicationTaskExecutor'
+[17:32:59.249:INFO :DemoApplication] Starting DemoApplication using Java 1.8.0_282 on balekui-Macmini.local with PID 5731 (/Users/bale.k/IdeaProjects/st-spring-2101/build/classes/java/main started by bale.k in /Users/bale.k/IdeaProjects/st-spring-2101)
+[17:32:59.249:INFO :DemoApplication] No active profile set, falling back to default profiles: default
+[17:32:59.339:INFO :TomcatWebServer] Tomcat initialized with port(s): 8088 (http)
+[17:32:59.339:INFO :Http11NioProtocol] Initializing ProtocolHandler ["http-nio-8088"]
+[17:32:59.339:INFO :StandardService] Starting service [Tomcat]
+[17:32:59.339:INFO :StandardEngine] Starting Servlet engine: [Apache Tomcat/9.0.41]
+[17:32:59.342:INFO :[/]] Initializing Spring embedded WebApplicationContext
+[17:32:59.342:INFO :ServletWebServerApplicationContext] Root WebApplicationContext: initialization completed in 92 ms
+[17:32:59.350:INFO :OneController] test logger
+[17:32:59.350:INFO :OneController] test debug logger
+[17:32:59.415:INFO :ThreadPoolTaskExecutor] Initializing ExecutorService 'applicationTaskExecutor'
+[17:32:59.480:WARN :OptionalLiveReloadServer] Unable to start LiveReload server
+[17:32:59.485:INFO :Http11NioProtocol] Starting ProtocolHandler ["http-nio-8088"]
+[17:32:59.486:INFO :TomcatWebServer] Tomcat started on port(s): 8088 (http) with context path ''
+[17:32:59.487:INFO :DemoApplication] Started DemoApplication in 0.391 seconds (JVM running for 435828.862)
+[17:32:59.488:INFO :ConditionEvaluationDeltaLoggingListener] Condition evaluation unchanged
+[17:41:02.666:INFO :ThreadPoolTaskExecutor] Shutting down ExecutorService 'applicationTaskExecutor'
+[17:41:02.897:INFO :DemoApplication] Starting DemoApplication using Java 1.8.0_282 on balekui-Macmini.local with PID 5731 (/Users/bale.k/IdeaProjects/st-spring-2101/build/classes/java/main started by bale.k in /Users/bale.k/IdeaProjects/st-spring-2101)
+[17:41:02.897:INFO :DemoApplication] No active profile set, falling back to default profiles: default
+[17:41:02.989:INFO :TomcatWebServer] Tomcat initialized with port(s): 8088 (http)
+[17:41:02.989:INFO :Http11NioProtocol] Initializing ProtocolHandler ["http-nio-8088"]
+[17:41:02.989:INFO :StandardService] Starting service [Tomcat]
+[17:41:02.989:INFO :StandardEngine] Starting Servlet engine: [Apache Tomcat/9.0.41]
+[17:41:02.992:INFO :[/]] Initializing Spring embedded WebApplicationContext
+[17:41:02.992:INFO :ServletWebServerApplicationContext] Root WebApplicationContext: initialization completed in 93 ms
+[17:41:03.000:INFO :OneController] test logger
+[17:41:03.001:INFO :OneController] test debug logger
+[17:41:03.063:INFO :ThreadPoolTaskExecutor] Initializing ExecutorService 'applicationTaskExecutor'
+[17:41:03.124:WARN :OptionalLiveReloadServer] Unable to start LiveReload server
+[17:41:03.128:INFO :Http11NioProtocol] Starting ProtocolHandler ["http-nio-8088"]
+[17:41:03.129:INFO :TomcatWebServer] Tomcat started on port(s): 8088 (http) with context path ''
+[17:41:03.131:INFO :DemoApplication] Started DemoApplication in 0.412 seconds (JVM running for 436312.515)
+[17:41:03.131:INFO :ConditionEvaluationDeltaLoggingListener] Condition evaluation unchanged
+[17:41:06.576:INFO :ThreadPoolTaskExecutor] Shutting down ExecutorService 'applicationTaskExecutor'
+[17:41:06.652:INFO :DemoApplication] Starting DemoApplication using Java 1.8.0_282 on balekui-Macmini.local with PID 5731 (/Users/bale.k/IdeaProjects/st-spring-2101/build/classes/java/main started by bale.k in /Users/bale.k/IdeaProjects/st-spring-2101)
+[17:41:06.653:INFO :DemoApplication] No active profile set, falling back to default profiles: default
+[17:41:06.733:INFO :TomcatWebServer] Tomcat initialized with port(s): 8088 (http)
+[17:41:06.733:INFO :Http11NioProtocol] Initializing ProtocolHandler ["http-nio-8088"]
+[17:41:06.733:INFO :StandardService] Starting service [Tomcat]
+[17:41:06.733:INFO :StandardEngine] Starting Servlet engine: [Apache Tomcat/9.0.41]
+[17:41:06.735:INFO :[/]] Initializing Spring embedded WebApplicationContext
+[17:41:06.736:INFO :ServletWebServerApplicationContext] Root WebApplicationContext: initialization completed in 81 ms
+[17:41:06.743:INFO :OneController] test logger
+[17:41:06.743:INFO :OneController] test debug logger
+[17:41:06.807:INFO :ThreadPoolTaskExecutor] Initializing ExecutorService 'applicationTaskExecutor'
+[17:41:06.872:WARN :OptionalLiveReloadServer] Unable to start LiveReload server
+[17:41:06.876:INFO :Http11NioProtocol] Starting ProtocolHandler ["http-nio-8088"]
+[17:41:06.877:INFO :TomcatWebServer] Tomcat started on port(s): 8088 (http) with context path ''
+[17:41:06.879:INFO :DemoApplication] Started DemoApplication in 0.237 seconds (JVM running for 436316.264)
+[17:41:06.880:INFO :ConditionEvaluationDeltaLoggingListener] Condition evaluation unchanged
+[17:41:25.102:INFO :[/]] Initializing Spring DispatcherServlet 'dispatcherServlet'
+[17:41:25.102:INFO :DispatcherServlet] Initializing Servlet 'dispatcherServlet'
+[17:41:25.102:INFO :DispatcherServlet] Completed initialization in 0 ms
+[17:41:25.106:INFO :ServiceAdvice] 6around start
+[17:41:25.106:INFO :ServiceAdvice] 7Controller Start : OneService.one() with
+[17:41:25.107:INFO :OneService] good job
+[17:41:25.109:INFO :ServiceAdvice] 8Controller End : OneService.one() with
+[17:42:25.333:INFO :ThreadPoolTaskExecutor] Shutting down ExecutorService 'applicationTaskExecutor'
+[17:42:25.488:INFO :DemoApplication] Starting DemoApplication using Java 1.8.0_282 on balekui-Macmini.local with PID 5731 (/Users/bale.k/IdeaProjects/st-spring-2101/build/classes/java/main started by bale.k in /Users/bale.k/IdeaProjects/st-spring-2101)
+[17:42:25.489:INFO :DemoApplication] No active profile set, falling back to default profiles: default
+[17:42:25.604:INFO :TomcatWebServer] Tomcat initialized with port(s): 8088 (http)
+[17:42:25.605:INFO :Http11NioProtocol] Initializing ProtocolHandler ["http-nio-8088"]
+[17:42:25.605:INFO :StandardService] Starting service [Tomcat]
+[17:42:25.605:INFO :StandardEngine] Starting Servlet engine: [Apache Tomcat/9.0.41]
+[17:42:25.610:INFO :[/]] Initializing Spring embedded WebApplicationContext
+[17:42:25.610:INFO :ServletWebServerApplicationContext] Root WebApplicationContext: initialization completed in 120 ms
+[17:42:25.619:INFO :OneController] test logger
+[17:42:25.619:INFO :OneController] test debug logger
+[17:42:25.691:INFO :ThreadPoolTaskExecutor] Initializing ExecutorService 'applicationTaskExecutor'
+[17:42:25.758:WARN :OptionalLiveReloadServer] Unable to start LiveReload server
+[17:42:25.763:INFO :Http11NioProtocol] Starting ProtocolHandler ["http-nio-8088"]
+[17:42:25.763:INFO :TomcatWebServer] Tomcat started on port(s): 8088 (http) with context path ''
+[17:42:25.765:INFO :DemoApplication] Started DemoApplication in 0.299 seconds (JVM running for 436395.151)
+[17:42:25.766:INFO :ConditionEvaluationDeltaLoggingListener] Condition evaluation unchanged
+[17:42:28.601:INFO :ThreadPoolTaskExecutor] Shutting down ExecutorService 'applicationTaskExecutor'
+[17:42:28.668:INFO :DemoApplication] Starting DemoApplication using Java 1.8.0_282 on balekui-Macmini.local with PID 5731 (/Users/bale.k/IdeaProjects/st-spring-2101/build/classes/java/main started by bale.k in /Users/bale.k/IdeaProjects/st-spring-2101)
+[17:42:28.668:INFO :DemoApplication] No active profile set, falling back to default profiles: default
+[17:42:28.749:INFO :TomcatWebServer] Tomcat initialized with port(s): 8088 (http)
+[17:42:28.750:INFO :Http11NioProtocol] Initializing ProtocolHandler ["http-nio-8088"]
+[17:42:28.750:INFO :StandardService] Starting service [Tomcat]
+[17:42:28.750:INFO :StandardEngine] Starting Servlet engine: [Apache Tomcat/9.0.41]
+[17:42:28.752:INFO :[/]] Initializing Spring embedded WebApplicationContext
+[17:42:28.752:INFO :ServletWebServerApplicationContext] Root WebApplicationContext: initialization completed in 83 ms
+[17:42:28.761:INFO :OneController] test logger
+[17:42:28.761:INFO :OneController] test debug logger
+[17:42:28.823:INFO :ThreadPoolTaskExecutor] Initializing ExecutorService 'applicationTaskExecutor'
+[17:42:28.890:WARN :OptionalLiveReloadServer] Unable to start LiveReload server
+[17:42:28.895:INFO :Http11NioProtocol] Starting ProtocolHandler ["http-nio-8088"]
+[17:42:28.895:INFO :TomcatWebServer] Tomcat started on port(s): 8088 (http) with context path ''
+[17:42:28.897:INFO :DemoApplication] Started DemoApplication in 0.24 seconds (JVM running for 436398.283)
+[17:42:28.897:INFO :ConditionEvaluationDeltaLoggingListener] Condition evaluation unchanged
+[17:42:37.782:INFO :[/]] Initializing Spring DispatcherServlet 'dispatcherServlet'
+[17:42:37.782:INFO :DispatcherServlet] Initializing Servlet 'dispatcherServlet'
+[17:42:37.783:INFO :DispatcherServlet] Completed initialization in 0 ms
+[17:42:37.786:INFO :ServiceAdvice] 6around start
+[17:42:37.787:INFO :OneService$$EnhancerBySpringCGLIB$$631c0f64] 7Controller Start : OneService.one() with
+[17:42:37.789:INFO :OneService] good job
+[17:42:37.789:INFO :OneService$$EnhancerBySpringCGLIB$$631c0f64] 8Controller End : OneService.one() with

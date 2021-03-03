@@ -1,0 +1,6 @@
+[00:23:28.028:OneService$$EnhancerBySpringCGLIB$$631c0f64:44] 7Controller Start : OneService.one() with
+[00:23:28.028:OneService:10] good job
+[00:23:28.028:OneService$$EnhancerBySpringCGLIB$$631c0f64:53] 8Controller End : OneService.one() with
+[629612ed-5ddf-4a53-8604-edf6ac2b7c02][20:40:05.005:OneService$$EnhancerBySpringCGLIB$$65356150:47] 7Controller Start : OneService.one() with
+[629612ed-5ddf-4a53-8604-edf6ac2b7c02][20:40:05.005:OneService:10] good job
+[629612ed-5ddf-4a53-8604-edf6ac2b7c02][20:40:05.005:OneService$$EnhancerBySpringCGLIB$$65356150:56] 8Controller End : OneService.one() with
