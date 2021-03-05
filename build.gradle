@@ -20,6 +20,7 @@ repositories {
 
 dependencies {
     implementation 'org.springframework.boot:spring-boot-starter-web'
+    implementation("org.springframework.boot:spring-boot-starter-thymeleaf")
     compileOnly 'org.projectlombok:lombok'
     implementation group: 'org.slf4j', name: 'slf4j-api'
     implementation group: 'ch.qos.logback', name: 'logback-core'
