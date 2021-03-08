@@ -1,0 +1,173 @@
+[01:30:06.952:INFO :ThreadPoolTaskExecutor] Shutting down ExecutorService 'applicationTaskExecutor'
+[01:30:06.955:INFO :LocalContainerEntityManagerFactoryBean] Closing JPA EntityManagerFactory for persistence unit 'default'
+[01:30:06.962:INFO :HikariDataSource] HikariPool-1 - Shutdown initiated...
+[01:30:06.965:INFO :HikariDataSource] HikariPool-1 - Shutdown completed.
+[01:30:07.084:INFO :DemoApplication] Starting DemoApplication using Java 1.8.0_282 on balekui-Macmini.local with PID 53805 (/Users/bale.k/IdeaProjects/st-spring-2101/build/classes/java/main started by bale.k in /Users/bale.k/IdeaProjects/st-spring-2101)
+[01:30:07.084:INFO :DemoApplication] The following profiles are active: dev
+[01:30:07.163:INFO :RepositoryConfigurationDelegate] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[01:30:07.166:INFO :RepositoryConfigurationDelegate] Finished Spring Data repository scanning in 2 ms. Found 2 JPA repository interfaces.
+[01:30:07.274:INFO :TomcatWebServer] Tomcat initialized with port(s): 8088 (http)
+[01:30:07.274:INFO :Http11NioProtocol] Initializing ProtocolHandler ["http-nio-8088"]
+[01:30:07.274:INFO :StandardService] Starting service [Tomcat]
+[01:30:07.274:INFO :StandardEngine] Starting Servlet engine: [Apache Tomcat/9.0.41]
+[01:30:07.278:INFO :[/]] Initializing Spring embedded WebApplicationContext
+[01:30:07.278:INFO :ServletWebServerApplicationContext] Root WebApplicationContext: initialization completed in 192 ms
+[01:30:07.309:WARN :HikariConfig] HikariPool-2 - idleTimeout is less than 10000ms, setting to default 600000ms.
+[01:30:07.310:INFO :HikariDataSource] HikariPool-2 - Starting...
+[01:30:07.323:INFO :HikariDataSource] HikariPool-2 - Start completed.
+[01:30:07.324:INFO :DatabaseFactory] Database: jdbc:postgresql://localhost:5432/mvc (PostgreSQL 13.1)
+[01:30:07.330:WARN :Database] Flyway upgrade recommended: PostgreSQL 13.1 is newer than this version of Flyway and support has not been tested. The latest supported version of PostgreSQL is 12.
+[01:30:07.335:INFO :DbValidate] Successfully validated 2 migrations (execution time 00:00.004s)
+[01:30:07.345:INFO :DbMigrate] Current version of schema "public": 2
+[01:30:07.346:INFO :DbMigrate] Schema "public" is up to date. No migration necessary.
+[01:30:07.362:INFO :LogHelper] HHH000204: Processing PersistenceUnitInfo [name: default]
+[01:30:07.368:INFO :Dialect] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+[01:30:07.432:INFO :JtaPlatformInitiator] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[01:30:07.433:INFO :LocalContainerEntityManagerFactoryBean] Initialized JPA EntityManagerFactory for persistence unit 'default'
+[01:30:07.456:INFO :OptionalLiveReloadServer] LiveReload server is running on port 35729
+[01:30:07.460:INFO :OneController] test logger
+[01:30:07.460:INFO :OneController] test debug logger
+[01:30:07.607:WARN :JpaBaseConfiguration$JpaWebConfiguration] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[01:30:07.684:INFO :ThreadPoolTaskExecutor] Initializing ExecutorService 'applicationTaskExecutor'
+[01:30:07.827:INFO :Http11NioProtocol] Starting ProtocolHandler ["http-nio-8088"]
+[01:30:07.828:INFO :TomcatWebServer] Tomcat started on port(s): 8088 (http) with context path ''
+[01:30:07.830:INFO :DemoApplication] Started DemoApplication in 0.765 seconds (JVM running for 43858.528)
+[01:30:07.831:INFO :ConditionEvaluationDeltaLoggingListener] Condition evaluation unchanged
+[01:30:10.269:INFO :ThreadPoolTaskExecutor] Shutting down ExecutorService 'applicationTaskExecutor'
+[01:30:10.271:INFO :LocalContainerEntityManagerFactoryBean] Closing JPA EntityManagerFactory for persistence unit 'default'
+[01:30:10.272:INFO :HikariDataSource] HikariPool-2 - Shutdown initiated...
+[01:30:10.278:INFO :HikariDataSource] HikariPool-2 - Shutdown completed.
+[01:30:10.371:INFO :DemoApplication] Starting DemoApplication using Java 1.8.0_282 on balekui-Macmini.local with PID 53805 (/Users/bale.k/IdeaProjects/st-spring-2101/build/classes/java/main started by bale.k in /Users/bale.k/IdeaProjects/st-spring-2101)
+[01:30:10.371:INFO :DemoApplication] The following profiles are active: dev
+[01:30:10.435:INFO :RepositoryConfigurationDelegate] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[01:30:10.438:INFO :RepositoryConfigurationDelegate] Finished Spring Data repository scanning in 2 ms. Found 2 JPA repository interfaces.
+[01:30:10.530:INFO :TomcatWebServer] Tomcat initialized with port(s): 8088 (http)
+[01:30:10.531:INFO :Http11NioProtocol] Initializing ProtocolHandler ["http-nio-8088"]
+[01:30:10.531:INFO :StandardService] Starting service [Tomcat]
+[01:30:10.531:INFO :StandardEngine] Starting Servlet engine: [Apache Tomcat/9.0.41]
+[01:30:10.536:INFO :[/]] Initializing Spring embedded WebApplicationContext
+[01:30:10.536:INFO :ServletWebServerApplicationContext] Root WebApplicationContext: initialization completed in 164 ms
+[01:30:10.569:WARN :HikariConfig] HikariPool-3 - idleTimeout is less than 10000ms, setting to default 600000ms.
+[01:30:10.569:INFO :HikariDataSource] HikariPool-3 - Starting...
+[01:30:10.589:INFO :HikariDataSource] HikariPool-3 - Start completed.
+[01:30:10.591:INFO :DatabaseFactory] Database: jdbc:postgresql://localhost:5432/mvc (PostgreSQL 13.1)
+[01:30:10.602:WARN :Database] Flyway upgrade recommended: PostgreSQL 13.1 is newer than this version of Flyway and support has not been tested. The latest supported version of PostgreSQL is 12.
+[01:30:10.613:INFO :DbValidate] Successfully validated 2 migrations (execution time 00:00.008s)
+[01:30:10.622:INFO :DbMigrate] Current version of schema "public": 2
+[01:30:10.623:INFO :DbMigrate] Schema "public" is up to date. No migration necessary.
+[01:30:10.628:INFO :LogHelper] HHH000204: Processing PersistenceUnitInfo [name: default]
+[01:30:10.632:INFO :Dialect] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+[01:30:10.677:INFO :JtaPlatformInitiator] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[01:30:10.677:INFO :LocalContainerEntityManagerFactoryBean] Initialized JPA EntityManagerFactory for persistence unit 'default'
+[01:30:10.699:INFO :OptionalLiveReloadServer] LiveReload server is running on port 35729
+[01:30:10.702:INFO :OneController] test logger
+[01:30:10.703:INFO :OneController] test debug logger
+[01:30:10.846:WARN :JpaBaseConfiguration$JpaWebConfiguration] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[01:30:10.933:INFO :ThreadPoolTaskExecutor] Initializing ExecutorService 'applicationTaskExecutor'
+[01:30:11.062:INFO :Http11NioProtocol] Starting ProtocolHandler ["http-nio-8088"]
+[01:30:11.075:INFO :TomcatWebServer] Tomcat started on port(s): 8088 (http) with context path ''
+[01:30:11.077:INFO :DemoApplication] Started DemoApplication in 0.721 seconds (JVM running for 43861.776)
+[01:30:11.078:INFO :ConditionEvaluationDeltaLoggingListener] Condition evaluation unchanged
+[01:30:18.671:INFO :[/]] Initializing Spring DispatcherServlet 'dispatcherServlet'
+[01:30:18.672:INFO :DispatcherServlet] Initializing Servlet 'dispatcherServlet'
+[01:30:18.674:INFO :DispatcherServlet] Completed initialization in 2 ms
+[01:30:41.862:INFO :DemoApplication] Starting DemoApplication using Java 1.8.0_282 on balekui-Macmini.local with PID 69662 (/Users/bale.k/IdeaProjects/st-spring-2101/build/classes/java/main started by bale.k in /Users/bale.k/IdeaProjects/st-spring-2101)
+[01:30:41.863:INFO :DemoApplication] The following profiles are active: dev
+[01:30:41.884:INFO :DevToolsPropertyDefaultsPostProcessor] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[01:30:41.884:INFO :DevToolsPropertyDefaultsPostProcessor] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[01:30:42.110:INFO :RepositoryConfigurationDelegate] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[01:30:42.131:INFO :RepositoryConfigurationDelegate] Finished Spring Data repository scanning in 17 ms. Found 2 JPA repository interfaces.
+[01:30:42.923:INFO :TomcatWebServer] Tomcat initialized with port(s): 8088 (http)
+[01:30:42.928:INFO :Http11NioProtocol] Initializing ProtocolHandler ["http-nio-8088"]
+[01:30:42.928:INFO :StandardService] Starting service [Tomcat]
+[01:30:42.928:INFO :StandardEngine] Starting Servlet engine: [Apache Tomcat/9.0.41]
+[01:30:42.964:INFO :[/]] Initializing Spring embedded WebApplicationContext
+[01:30:42.965:INFO :ServletWebServerApplicationContext] Root WebApplicationContext: initialization completed in 1081 ms
+[01:30:43.055:INFO :VersionPrinter] Flyway Community Edition 6.5.3 by Redgate
+[01:30:43.058:WARN :HikariConfig] HikariPool-1 - idleTimeout is less than 10000ms, setting to default 600000ms.
+[01:30:43.059:INFO :HikariDataSource] HikariPool-1 - Starting...
+[01:30:43.125:INFO :HikariDataSource] HikariPool-1 - Start completed.
+[01:30:43.139:INFO :DatabaseFactory] Database: jdbc:postgresql://localhost:5432/mvc (PostgreSQL 13.1)
+[01:30:43.154:WARN :Database] Flyway upgrade recommended: PostgreSQL 13.1 is newer than this version of Flyway and support has not been tested. The latest supported version of PostgreSQL is 12.
+[01:30:43.218:INFO :DbValidate] Successfully validated 2 migrations (execution time 00:00.016s)
+[01:30:43.229:INFO :DbMigrate] Current version of schema "public": 2
+[01:30:43.231:INFO :DbMigrate] Schema "public" is up to date. No migration necessary.
+[01:30:43.277:INFO :LogHelper] HHH000204: Processing PersistenceUnitInfo [name: default]
+[01:30:43.297:INFO :Version] HHH000412: Hibernate ORM core version 5.4.27.Final
+[01:30:43.342:INFO :Version] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[01:30:43.394:INFO :Dialect] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+[01:30:43.663:INFO :JtaPlatformInitiator] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[01:30:43.667:INFO :LocalContainerEntityManagerFactoryBean] Initialized JPA EntityManagerFactory for persistence unit 'default'
+[01:30:43.703:WARN :OptionalLiveReloadServer] Unable to start LiveReload server
+[01:30:43.713:INFO :OneController] test logger
+[01:30:43.713:INFO :OneController] test debug logger
+[01:30:43.994:WARN :JpaBaseConfiguration$JpaWebConfiguration] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[01:30:44.105:INFO :ThreadPoolTaskExecutor] Initializing ExecutorService 'applicationTaskExecutor'
+[01:30:44.337:INFO :Http11NioProtocol] Starting ProtocolHandler ["http-nio-8088"]
+[01:30:44.349:WARN :AnnotationConfigServletWebServerApplicationContext] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 8088 is already in use
+[01:30:44.349:INFO :ThreadPoolTaskExecutor] Shutting down ExecutorService 'applicationTaskExecutor'
+[01:30:44.350:INFO :LocalContainerEntityManagerFactoryBean] Closing JPA EntityManagerFactory for persistence unit 'default'
+[01:30:44.350:INFO :HikariDataSource] HikariPool-1 - Shutdown initiated...
+[01:30:44.351:INFO :HikariDataSource] HikariPool-1 - Shutdown completed.
+[01:30:44.352:INFO :Http11NioProtocol] Pausing ProtocolHandler ["http-nio-8088"]
+[01:30:44.352:INFO :StandardService] Stopping service [Tomcat]
+[01:30:44.355:INFO :Http11NioProtocol] Stopping ProtocolHandler ["http-nio-8088"]
+[01:30:44.355:INFO :Http11NioProtocol] Destroying ProtocolHandler ["http-nio-8088"]
+[01:30:44.359:INFO :ConditionEvaluationReportLoggingListener] 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+[01:30:44.368:ERROR:LoggingFailureAnalysisReporter] 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8088 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8088 or configure this application to listen on another port.
+
+[01:31:58.356:INFO :DemoApplication] Starting DemoApplication using Java 1.8.0_282 on balekui-Macmini.local with PID 69744 (/Users/bale.k/IdeaProjects/st-spring-2101/build/classes/java/main started by bale.k in /Users/bale.k/IdeaProjects/st-spring-2101)
+[01:31:58.356:INFO :DemoApplication] The following profiles are active: dev
+[01:31:58.375:INFO :DevToolsPropertyDefaultsPostProcessor] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[01:31:58.375:INFO :DevToolsPropertyDefaultsPostProcessor] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[01:31:58.566:INFO :RepositoryConfigurationDelegate] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[01:31:58.583:INFO :RepositoryConfigurationDelegate] Finished Spring Data repository scanning in 14 ms. Found 2 JPA repository interfaces.
+[01:31:58.950:INFO :TomcatWebServer] Tomcat initialized with port(s): 8088 (http)
+[01:31:58.954:INFO :Http11NioProtocol] Initializing ProtocolHandler ["http-nio-8088"]
+[01:31:58.954:INFO :StandardService] Starting service [Tomcat]
+[01:31:58.954:INFO :StandardEngine] Starting Servlet engine: [Apache Tomcat/9.0.41]
+[01:31:58.983:INFO :[/]] Initializing Spring embedded WebApplicationContext
+[01:31:58.983:INFO :ServletWebServerApplicationContext] Root WebApplicationContext: initialization completed in 608 ms
+[01:31:59.046:INFO :VersionPrinter] Flyway Community Edition 6.5.3 by Redgate
+[01:31:59.049:WARN :HikariConfig] HikariPool-1 - idleTimeout is less than 10000ms, setting to default 600000ms.
+[01:31:59.050:INFO :HikariDataSource] HikariPool-1 - Starting...
+[01:31:59.101:INFO :HikariDataSource] HikariPool-1 - Start completed.
+[01:31:59.109:INFO :DatabaseFactory] Database: jdbc:postgresql://localhost:5432/mvc (PostgreSQL 13.1)
+[01:31:59.125:WARN :Database] Flyway upgrade recommended: PostgreSQL 13.1 is newer than this version of Flyway and support has not been tested. The latest supported version of PostgreSQL is 12.
+[01:31:59.149:INFO :DbValidate] Successfully validated 2 migrations (execution time 00:00.017s)
+[01:31:59.161:INFO :DbMigrate] Current version of schema "public": 2
+[01:31:59.164:INFO :DbMigrate] Schema "public" is up to date. No migration necessary.
+[01:31:59.233:INFO :LogHelper] HHH000204: Processing PersistenceUnitInfo [name: default]
+[01:31:59.249:INFO :Version] HHH000412: Hibernate ORM core version 5.4.27.Final
+[01:31:59.292:INFO :Version] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[01:31:59.333:INFO :Dialect] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+[01:31:59.581:INFO :JtaPlatformInitiator] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[01:31:59.584:INFO :LocalContainerEntityManagerFactoryBean] Initialized JPA EntityManagerFactory for persistence unit 'default'
+[01:31:59.616:INFO :OptionalLiveReloadServer] LiveReload server is running on port 35729
+[01:31:59.624:INFO :OneController] test logger
+[01:31:59.624:INFO :OneController] test debug logger
+[01:31:59.867:WARN :JpaBaseConfiguration$JpaWebConfiguration] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[01:31:59.958:INFO :ThreadPoolTaskExecutor] Initializing ExecutorService 'applicationTaskExecutor'
+[01:32:00.124:INFO :Http11NioProtocol] Starting ProtocolHandler ["http-nio-8088"]
+[01:32:00.136:INFO :TomcatWebServer] Tomcat started on port(s): 8088 (http) with context path ''
+[01:32:00.142:INFO :DemoApplication] Started DemoApplication in 1.918 seconds (JVM running for 2.218)
+[01:32:02.175:INFO :[/]] Initializing Spring DispatcherServlet 'dispatcherServlet'
+[01:32:02.175:INFO :DispatcherServlet] Initializing Servlet 'dispatcherServlet'
+[01:32:02.176:INFO :DispatcherServlet] Completed initialization in 1 ms
+[17:51:08.430:WARN :HikariPool] HikariPool-1 - Retrograde clock change detected (housekeeper delta=27s796ms), soft-evicting connections from pool.
+[18:21:08.849:WARN :HikariPool] HikariPool-1 - Retrograde clock change detected (housekeeper delta=27s841ms), soft-evicting connections from pool.
+[22:35:11.101:WARN :HikariPool] HikariPool-1 - Retrograde clock change detected (housekeeper delta=27s834ms), soft-evicting connections from pool.

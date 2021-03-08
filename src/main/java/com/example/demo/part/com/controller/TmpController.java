@@ -36,6 +36,19 @@ public class TmpController extends BaseController {
 //            list.add(tmp);
 //        });
 
+        log.info(ca.getTransactionDate().toString());
+        log.info(ca.getAppName());
+        log.info(ca.getAppVersion());
+        log.info(ca.getGid());
+        log.info(ca.getPath());
+        log.info(ca.getMethod());
+        log.info(ca.getRemoteIp());
+        log.info(ca.getHostName());
+        log.info(String.valueOf(ca.isBLocal()));
+        log.info(String.valueOf(ca.isBDev()));
+        log.info(String.valueOf(ca.isBPrd()));
+        log.info(ca.getMobYn());
+
         return list;
     }
 }
