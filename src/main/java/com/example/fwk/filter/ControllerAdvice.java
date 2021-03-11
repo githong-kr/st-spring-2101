@@ -89,7 +89,6 @@ public class ControllerAdvice {
         ts.saveTr(ca);
         try {
             Object bc = pjp.getThis();
-            System.out.println("cocoa test ; " + bc.getClass().getSimpleName());
             if(bc instanceof BaseController) {
                 BaseController base = (BaseController) bc;
                 base.setCa(); // Request 범위에 있는 ca를 BaseController 멤버 ca에 등록
@@ -102,6 +101,7 @@ public class ControllerAdvice {
             ca.setStatusCode("500");
         } finally {
             ca.setEndTime(OffsetDateTime.now(ZoneId.of("+9")));
+            System.out.println("cocoa test 업데이트TR 직전 공통부 : " + ca);
             ts.updateTr(ca);
         }
 

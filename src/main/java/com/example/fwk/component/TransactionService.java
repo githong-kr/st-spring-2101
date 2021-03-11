@@ -18,21 +18,22 @@ public class TransactionService {
 
     @Autowired TransactionRepo repo;
 
-    //@Async
+    @Async
     public void saveTr(CommonArea commons) {
         log.info("saveTr start");
         FwkTransactionHst tr = convertTr(commons);
         repo.save(tr);
     }
 
-    //@Async
+    @Async
     public void updateTr(CommonArea commons) {
         FwkTransactionHstId id = new FwkTransactionHstId();
         id.setTransactionDate(commons.getTransactionDate());
         id.setAppName(commons.getAppName());
         id.setAppVersion(commons.getAppVersion());
         id.setGid(commons.getGid());
-        repo.findById(id);
+        System.out.println("cocoa test 전달받은 공통부 키 데이터 : " + id );
+        System.out.println("cocoa test : 전달받은 공통부 SELECT 결 : " + repo.findById(id));
 
         repo.save(convertTr(commons));
     }
