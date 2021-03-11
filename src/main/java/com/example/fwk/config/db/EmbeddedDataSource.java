@@ -29,14 +29,14 @@ import java.util.HashMap;
 public class EmbeddedDataSource {
 
     @Bean(name = "embeddedPrimaryDataSource")
-    @DependsOn("embeddedDb")
+    @DependsOn("embeddedPrimaryDb")
     @Order(Ordered.LOWEST_PRECEDENCE)
     public DataSource embeddedPrimaryDataSource() {
 
         HikariDataSource ds = new HikariDataSource();
-        ds.setJdbcUrl("jdbc:postgresql://localhost:5432/usa?ssl=false&charset=utf8");
-        ds.setUsername("econ");
-        ds.setPassword("1q2w3e4r");
+        ds.setJdbcUrl("jdbc:postgresql://localhost:5435/postgres?ssl=false&charset=utf8");
+        ds.setUsername("postgres");
+        ds.setPassword("postgres");
         ds.setMinimumIdle(5);
         ds.setMaximumPoolSize(100);
         ds.setIdleTimeout(3000);

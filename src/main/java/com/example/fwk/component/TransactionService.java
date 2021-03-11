@@ -11,6 +11,8 @@ import org.springframework.stereotype.Service;
 
 import java.time.*;
 import java.time.format.DateTimeFormatter;
+import java.util.Optional;
+import java.util.concurrent.CompletableFuture;
 
 @Service
 @Log
@@ -19,10 +21,12 @@ public class TransactionService {
     @Autowired TransactionRepo repo;
 
     @Async
-    public void saveTr(CommonArea commons) {
-        log.info("saveTr start");
-        FwkTransactionHst tr = convertTr(commons);
-        repo.save(tr);
+    public CompletableFuture<FwkTransactionHst> saveTr(CommonArea commons) {
+        return CompletableFuture.supplyAsync(() -> {
+            log.info("saveTr start");
+            FwkTransactionHst tr = convertTr(commons, null);
+            return repo.save(tr);
+        });
     }
 
     @Async
@@ -32,15 +36,17 @@ public class TransactionService {
         id.setAppName(commons.getAppName());
         id.setAppVersion(commons.getAppVersion());
         id.setGid(commons.getGid());
-        System.out.println("cocoa test 전달받은 공통부 키 데이터 : " + id );
+        System.out.println("cocoa test 전달받은 공통부 키 데이터 : " + id);
         System.out.println("cocoa test : 전달받은 공통부 SELECT 결 : " + repo.findById(id));
 
-        repo.save(convertTr(commons));
+        Optional<FwkTransactionHst> byId = repo.findById(id);
+        repo.save(convertTr(commons, byId.get()));
     }
 
-    public FwkTransactionHst convertTr(CommonArea commons) {
-        // FwkTransactionHst init
-        FwkTransactionHst newTr = new FwkTransactionHst();
+    public FwkTransactionHst convertTr(CommonArea commons, FwkTransactionHst newTr) {
+        if (newTr == null) {
+            newTr = new FwkTransactionHst();
+        }
         newTr.setTransactionDate(commons.getTransactionDate());
         newTr.setAppName(commons.getAppName());
         newTr.setAppVersion(commons.getAppVersion());

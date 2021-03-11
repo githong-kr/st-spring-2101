@@ -20,7 +20,7 @@ public class EmbeddedDb {
     public DataSource embeddedPrimaryDb() throws IOException {
         return EmbeddedPostgres.builder()
                 .setServerConfig("timezone", "Asia/Seoul")
-                .setPort(5433)
+                .setPort(5435)
                 .start().getPostgresDatabase();
     }
 

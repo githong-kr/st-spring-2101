@@ -1,5 +1,6 @@
 package com.example.fwk.filter;
 
+import com.example.demo.entity.FwkTransactionHst;
 import com.example.fwk.base.BaseController;
 import com.example.fwk.component.TransactionService;
 import com.example.fwk.pojo.CommonArea;
@@ -28,6 +29,8 @@ import java.time.LocalDate;
 import java.time.OffsetDateTime;
 import java.time.ZoneId;
 import java.util.UUID;
+import java.util.concurrent.CompletableFuture;
+import java.util.concurrent.ExecutionException;
 
 @Aspect
 @Component
@@ -86,7 +89,7 @@ public class ControllerAdvice {
         setCommonArea(req, ca);
         /* FwkTransactionHst init end */
 
-        ts.saveTr(ca);
+        CompletableFuture<FwkTransactionHst> futureSaveTr = ts.saveTr(ca);
         try {
             Object bc = pjp.getThis();
             if(bc instanceof BaseController) {
@@ -102,6 +105,15 @@ public class ControllerAdvice {
         } finally {
             ca.setEndTime(OffsetDateTime.now(ZoneId.of("+9")));
             System.out.println("cocoa test 업데이트TR 직전 공통부 : " + ca);
+            try {
+                futureSaveTr.get();
+            } catch (InterruptedException e) {
+                log.info("future InterruptedException occurred..");
+                e.printStackTrace();
+            } catch (ExecutionException e) {
+                log.info("future ExecutionException occurred..");
+                e.printStackTrace();
+            }
             ts.updateTr(ca);
         }
 
